@@ -12,6 +12,7 @@ public class NaveExploracion extends NaveEspacial implements Propulsable {
 
     public NaveExploracion(String matricula, String modelo, double combustibleInicial, double capacidadCombustible) throws AstreaException {
         super(matricula, modelo, combustibleInicial, capacidadCombustible);
+
         // TODO: Implementar asignación
     }
 
