@@ -11,7 +11,13 @@ public class NaveEspacialTest {
     // Usaremos NaveCarga para probar los métodos comunes heredados de NaveEspacial
     @Test
     public void testCreacionValida() throws AstreaException {
-        NaveEspacial nave = new NaveCarga("NX-01", "Carguero Ligero", 100.0, 500.0, 1000.0);
+        NaveEspacial nave = new NaveCarga(
+            "NX-01", 
+            "Carguero Ligero", 
+            100.0, 
+            500.0, 
+            1000.0
+        );
         assertEquals("NX-01", nave.getMatricula());
         assertEquals("Carguero Ligero", nave.getModelo());
         assertEquals(100.0, nave.getCombustible(), 0.001);
